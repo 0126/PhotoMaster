@@ -27,6 +27,9 @@ class ViewController: UIViewController {
     @IBAction func onTappedAlbumButton() {
     }
     
+    
+    
+    
     func presentPickerController(sourceType: UIImagePickerControllerSourceType) {
         if UIImagePickerController.isSourceTypeAvailable(sourceType) {
             let picker = UIImagePickerController()
